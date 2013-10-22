@@ -1,0 +1,6 @@
+#!/bin/python3
+
+import sys, pygame
+
+
+if (__name__ == '__main__'): #main function
