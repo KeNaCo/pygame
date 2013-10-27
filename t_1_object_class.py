@@ -1,15 +1,15 @@
 #!/bin/python3
 
 class Class:
-	my_property;
+	my_property = None
 	
-	__init__(self, value):
-		self.property = value
+	def __init__(self, value):
+		self.my_property = value
 	
-	__del__(self):
+	def __del__(self):
 		pass
 	
-	my_print(self):
+	def my_print(self):
 		print("My property value is: ", self.my_property)
 
 if (__name__ == '__main__'): #main function
