@@ -1,0 +1,14 @@
+#!/bin/python3
+
+class BlackBox:
+	__listOfValues = None
+
+	def __init__(self, listOfNumbers):
+		self.__listOfValues = listOfNumbers
+		
+	def input(self, listOfNumbers):
+		self.__listOfValues += listOfNumbers
+	
+	def output(self):
+		print("Average of list is: ", sum(self.__listOfValues)/ len(self.__listOfValues))
+
